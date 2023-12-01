@@ -23,9 +23,9 @@
   </head>
   <body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+    <nav class="navbar navbar-expand-sm navbar-light nav-color">
       <div class="container">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand text-white" href="#"><i class="bi bi-backpack4 mx-3" ></i>Navbar</a>
         <button
           class="navbar-toggler d-lg-none"
           type="button"
@@ -40,23 +40,28 @@
         <div class="collapse navbar-collapse" id="collapsibleNavId">
           <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" href="#" aria-current="page"
-                >Home <span class="visually-hidden">(current)</span></a
-              >
+              <a class="nav-link active " href="#" aria-current="page">Home <span class="visually-hidden">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link " href="#About">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#Services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#Portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#Blog">Blog</a>
             </li>
             <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="dropdownId"
-                data-bs-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-                >Dropdown</a
-              >
+              <a class="nav-link dropdown-toggle text-white" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+              <div class="dropdown-menu" aria-labelledby="dropdownId">
+                <a class="dropdown-item" href="#">Action 1</a>
+                <a class="dropdown-item" href="#">Action 2</a>
+              </div>
+            </li>
+          </ul>
               <div class="dropdown-menu" aria-labelledby="dropdownId">
                 <a class="dropdown-item" href="#">Action 1</a>
                 <a class="dropdown-item" href="#">Action 2</a>
@@ -69,7 +74,23 @@
     <!-- navbar end -->
 
     <!-- main content -->
-    
+    <div class="container mt-5">
+      <div class="row">
+        <!-- * first column -->
+        <!-- * first column -->
+        <div class="col-12 col-md-6 order-md-1 order-2 text-center text-md-start"> <!-- Added 'text-center' and 'text-md-start' classes -->
+          <p class="text1" >Hello I am</p>
+          <h1>Mark Zumabia Mubarka</h1>
+          <p class="text2"><a href="#" class="nav-link">UI/UX Designed - Developing - Marketing</a></p>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro sapiente quas ipsam nam! Doloribus quasi vero minus nihil molestiae nam. Quis nesciunt natus obcaecati voluptatibus beatae animi tenetur voluptate? Magnam!</p>
+          <a name="" id="" class="btn btn-lightpurple" href="#" role="button"><i class="bi bi-menu-button-wide mx-2"></i>My Works</a>
+        </div>
+        <!-- * second column -->
+        <div class="col-12 col-md-6 order-md-2 order-1">
+          <img src="Img/main.png" class="img-fluid rounded-top" alt="">
+        </div>
+      </div>
+    </div>
 
     <!-- js link for user-interactions -->
     <script src="js/user-interactions.js"></script>
