@@ -100,3 +100,6 @@ body:not(nav) {
   margin-bottom: 10%;
 }
 
+.bg-purple{
+  background-color: #c4b9e9;
+}
